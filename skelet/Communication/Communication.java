@@ -21,7 +21,7 @@ public class Communication< V extends Display> {
         boolean wokring = true;
         do {
             String input = view.getInput(
-                    "Введите данные через пробел (Фамилию Имя Отчество ДатуРождения НомерТелефона Пол), или Exit для прекращения программы:");
+                    "Введите данные через пробел (Фамилию Имя Отчество ДатуРождения(формат 88.88.8888) НомерТелефона(десять цифр) Пол(f / m)), или Exit для прекращения программы:");
             if (input.equals("Exit")) {
                 wokring = false;
                 break;
