@@ -1,5 +1,6 @@
 package skelet.Baze;
 
-public class Gender {
-    
+public enum Gender {
+    m,
+    f
 }
